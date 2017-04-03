@@ -13,7 +13,8 @@ Yarning about data science for white hat security researchers
 
 * 矩阵和基本线性代数
 * 基本概率论
-* 图论和常见图算法
+* 基本离散数学建模方法
+* 图论和常见图模型方法
 
 数据分析方法
 
@@ -24,4 +25,5 @@ Yarning about data science for white hat security researchers
 * 统计机器学习概述
 * 常见监督学习建模方法
 * 聚类方法和其他非监督学习方法
+* 异常检测
 * 序列建模的深度学习
