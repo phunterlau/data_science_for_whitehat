@@ -11,7 +11,7 @@ Yarning about data science for white hat security researchers
 
 基础知识
 
-* 矩阵和基本线性代数
+* [矩阵和基本线性代数](fundamental/basic_linear_algebra_matrix.pdf)
 * 基本概率论
 	* 排列和组合
 	* 贝叶斯概率
