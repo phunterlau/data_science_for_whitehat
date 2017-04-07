@@ -1,0 +1,32 @@
+%http://tex.stackexchange.com/questions/258811/diagram-for-svd
+\documentclass{article}
+\usepackage{stackengine,graphicx}
+\stackMath
+\newlength\matfield
+\newlength\tmplength
+\def\matscale{1.}
+\newcommand\dimbox[3]{%
+  \setlength\matfield{\matscale\baselineskip}%
+  \setbox0=\hbox{\vphantom{X}\smash{#3}}%
+  \setlength{\tmplength}{#1\matfield-\ht0-\dp0}%
+  \fboxrule=1pt\fboxsep=-\fboxrule\relax%
+  \fbox{\makebox[#2\matfield]{\addstackgap[.5\tmplength]{\box0}}}}
+\newcommand\raiserows[2]{%
+   \setlength\matfield{\matscale\baselineskip}%
+   \raisebox{#1\matfield}{#2}}
+\newcommand\matbox[5]{
+  \raisebox{2.3ex}{\rotatebox[origin=center]{90}{\scalebox{.45}{#2}}}\,%
+  \stackon{\dimbox{#1}{#3}{#5}}{\scalebox{.45}{#4}}}
+\newcommand\titlebox[3][30ex]{\stackanchor{#2}{\scalebox{.45}{\parbox{#1}{\centering #3}}}}
+\begin{document}
+\[\renewcommand\matscale{.6}
+\matbox{7}{m}{8}{n}{%
+  \titlebox[20ex]{X}{}} 
+= 
+\matbox{7}{}{3}{}{\titlebox[10ex]{U}{matrix}} 
+\raiserows{2}{\matbox{3}{}{3}{}{\titlebox{S}{matrix}}} 
+\stackunder[6pt]{%
+  \raiserows{2}{\matbox{3}{}{8}{}{\titlebox{V^T}{matrix}}}%
+}{\scalebox{.6}{SVD}}
+\]
+\end{document}
