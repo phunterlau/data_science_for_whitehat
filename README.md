@@ -34,3 +34,4 @@ Yarning about data science for white hat security researchers
 应用数据科学方法论
 
 * 规则系统、统计系统和数据系统
+* 白帽子和数据科学家的合作方法
