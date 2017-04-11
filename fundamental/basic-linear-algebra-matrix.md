@@ -80,7 +80,7 @@ $$
 
 $$
 \begin{bmatrix} 
-a_{00} & a_{01} & \cdots & a_{0,n-1}\\
+a_{00} & a_{01} & \cdots & a_{0,n-1}
 \end{bmatrix} 
 \times 
 \begin{bmatrix}  x_0 \\ x_1 \\ \vdots \\ x_{n-1} \end{bmatrix} = a_{00}x_0+a_{01}x_1+a_{02}x_2+ ... + a_{0,n-1}x_{n-1}
@@ -93,7 +93,7 @@ $$
 1 & 2 & 3 & 4\\
 3 & 2 & 6 & 3\\
 9 & 5 & 3 & 2\\
-2 & 2 & 3 & 3\\
+2 & 2 & 3 & 3
 \end{bmatrix} 
 \times 
 \begin{bmatrix}  x_0 \\ x_1 \\ x_2 \\ x_3 \end{bmatrix}
