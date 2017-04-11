@@ -1,6 +1,8 @@
 # 写给白帽子的数据科学手册
 Yarning about data science for white hat security researchers
+
 `https://github.com/phunterlau/data_science_for_whitehat`
+`https://www.gitbook.com/book/phunterlau/data-science-for-whitehat/details`
 
 一个想法，希望能够达成，为白帽子的技能树加上数据科学的分支。
 
